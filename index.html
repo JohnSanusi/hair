@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Braids By Her - Professional Braiding Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .gradient-header {
+        background: linear-gradient(135deg, #fce7f3 0%, #fae8ff 100%);
+      }
+      .gradient-accent {
+        background: linear-gradient(135deg, #ec4899 0%, #d946ef 100%);
+      }
+      .hair-texture {
+        background-image: radial-gradient(
+          circle at 1px 1px,
+          rgba(236, 72, 153, 0.1) 1px,
+          transparent 1px
+        );
+        background-size: 20px 20px;
+      }
+      .card-hover {
+        transition: all 0.3s ease;
+      }
+      .card-hover:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(236, 72, 153, 0.2);
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+      <div
+        class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div
+          class="text-2xl font-bold gradient-accent bg-clip-text text-transparent"
+        >
+          <i class="fas fa-scissors mr-2"></i>Hannah's Braids
+        </div>
+        <div class="hidden md:flex gap-8">
+          <a
+            href="#services"
+            class="text-gray-700 hover:text-pink-600 transition"
+            >Services</a
+          >
+          <a href="#video" class="text-gray-700 hover:text-pink-600 transition"
+            >Video</a
+          >
+          <a
+            href="#booking"
+            class="text-gray-700 hover:text-pink-600 transition"
+            >Book Now</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-header pt-24 pb-20 px-4 hair-texture">
+      <div class="max-w-6xl mx-auto text-center">
+        <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
+          Stunning Braids, Delivered to You
+        </h1>
+        <p class="text-xl text-gray-700 mb-8">
+          Professional braiding services right at your doorstep. Let's elevate
+          your hair game! 💇‍♀️✨
+        </p>
+        <div>
+          <a
+            href="#booking"
+            class="inline-block px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition transform hover:scale-105"
+          >
+            Book Your Appointment
+          </a>
+          <p class="mt-4 text-gray-700 font-semibold">
+            <i class="fas fa-map-marker-alt text-pink-600"></i> London Only
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
+          Our Services
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Service 1: Cornrows -->
+          <div
+            class="card-hover bg-white rounded-2xl overflow-hidden shadow-lg border border-pink-100"
+          >
+            <div
+              class="h-64 bg-gradient-to-br from-pink-200 to-purple-200 flex items-center justify-center"
+            >
+              <img
+                src="./cornrows.jfif"
+                alt="Cornrows"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-2xl font-bold text-gray-900 mb-2">Cornrows</h3>
+              <p class="text-gray-600 mb-4">
+                Classic cornrows with precision and style. Perfect for any
+                occasion - sleek, protective, and timeless.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-pink-600 font-bold text-lg">£70</span>
+                <span class="text-sm text-gray-500">⏱️ 2-3 hours</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2: Box Braids -->
+          <div
+            class="card-hover bg-white rounded-2xl overflow-hidden shadow-lg border border-purple-100"
+          >
+            <div
+              class="h-64 bg-gradient-to-br from-purple-200 to-pink-200 flex items-center justify-center"
+            >
+              <img
+                src="./braids.jpeg"
+                alt="Box Braids"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-2xl font-bold text-gray-900 mb-2">Box Braids</h3>
+              <p class="text-gray-600 mb-4">
+                Statement box braids with extension options. Bold, protective,
+                and absolutely gorgeous for weeks.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-purple-600 font-bold text-lg">£70</span>
+                <span class="text-sm text-gray-500">⏱️ 4-6 hours</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 3: Twist/Locks -->
+          <div
+            class="card-hover bg-white rounded-2xl overflow-hidden shadow-lg border border-pink-100"
+          >
+            <div
+              class="h-64 bg-gradient-to-br from-pink-100 to-red-200 flex items-center justify-center"
+            >
+              <img
+                src="./twists.jpeg"
+                alt="Twists"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-2xl font-bold text-gray-900 mb-2">
+                Twists & Locks
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Gorgeous two-strand twists and loc work. Versatile style that's
+                perfect for any look you want.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-pink-600 font-bold text-lg">£70</span>
+                <span class="text-sm text-gray-500">⏱️ 3-5 hours</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Services -->
+        <div
+          class="mt-12 bg-gradient-to-r from-pink-50 to-purple-50 rounded-2xl p-8 border border-pink-200"
+        >
+          <h3 class="text-2xl font-bold mb-4 text-gray-900">
+            <i class="fas fa-star text-pink-600"></i> Add-On Services
+          </h3>
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="flex items-center gap-3">
+              <span class="text-pink-600 text-2xl"
+                ><i class="fas fa-gem"></i
+              ></span>
+              <div>
+                <p class="font-semibold text-gray-900">Beads & Accessories</p>
+                <p class="text-sm text-gray-600">Included in service</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-purple-600 text-2xl"
+                ><i class="fas fa-scissors"></i
+              ></span>
+              <div>
+                <p class="font-semibold text-gray-900">Custom Styling</p>
+                <p class="text-sm text-gray-600">Included in service</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="py-16 px-4 bg-gray-50">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">
+          Why Choose Us?
+        </h2>
+        <div class="grid md:grid-cols-4 gap-6">
+          <div class="text-center">
+            <div class="text-4xl mb-3 text-pink-600">
+              <i class="fas fa-home"></i>
+            </div>
+            <h4 class="font-bold text-gray-900 mb-2">Home Service</h4>
+            <p class="text-gray-600 text-sm">
+              We come to you! Comfortable and convenient at your place.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="text-4xl mb-3 text-purple-600">
+              <i class="fas fa-crown"></i>
+            </div>
+            <h4 class="font-bold text-gray-900 mb-2">Expert Skills</h4>
+            <p class="text-gray-600 text-sm">
+              Years of experience in creating stunning, long-lasting braids.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="text-4xl mb-3 text-pink-600">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h4 class="font-bold text-gray-900 mb-2">Creative Design</h4>
+            <p class="text-gray-600 text-sm">
+              Custom styles tailored to your unique personality and vibe.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="text-4xl mb-3 text-purple-600">
+              <i class="fas fa-lock text-purple-600"></i>
+            </div>
+            <h4 class="font-bold text-gray-900 mb-2">Quality Hair</h4>
+            <p class="text-gray-600 text-sm">
+              Premium hair extensions and materials for the best results.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="py-20 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
+          Watch Me Work <i class="fas fa-video text-pink-600"></i>
+        </h2>
+
+        <div class="rounded-2xl overflow-hidden shadow-2xl">
+          <video controls class="w-full rounded-2xl" style="max-height: 600px">
+            <source src="./VID-20260605-WA0169.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <p class="text-center mt-6 text-gray-700 text-lg">
+          See the magic happen! Check out how Hannah creates stunning braids
+          with precision and care.
+        </p>
+      </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="py-20 px-4 gradient-header">
+      <div class="max-w-2xl mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-8 text-gray-900">
+          Ready to Book? <i class="fas fa-heart text-pink-600"></i>
+        </h2>
+        <p class="text-xl text-gray-700 mb-8">
+          Hit the button below and DM Hannah on WhatsApp to book your
+          appointment!
+        </p>
+
+        <a
+          href="https://wa.me/447554557537?text=Hey!%20I%27m%20interested%20in%20booking%20a%20braiding%20appointment.%20Can%20you%20tell%20me%20more%20about%20your%20services%3F"
+          target="_blank"
+          class="inline-block px-12 py-6 gradient-accent text-white font-bold rounded-full hover:shadow-lg transition transform hover:scale-110 text-xl"
+        >
+          <i class="fab fa-whatsapp mr-2"></i>Message on WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4">
+      <div class="max-w-6xl mx-auto text-center">
+        <h3 class="text-2xl font-bold mb-4">
+          <i class="fas fa-scissors text-pink-500 mr-2"></i>Hannah's Braids<i
+            class="fas fa-scissors text-pink-500 ml-2"
+          ></i>
+        </h3>
+        <p class="text-gray-400 mb-4">
+          Professional braiding services delivered with love and precision
+        </p>
+        <p class="text-pink-500 font-semibold mb-6">
+          <i class="fas fa-map-pin"></i> London Only
+        </p>
+        <p class="text-gray-500 text-sm">
+          © 2026 Hannah's Braids. All rights reserved. | Made with love
+          <i class="fas fa-heart text-pink-500"></i>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
